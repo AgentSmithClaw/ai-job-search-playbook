@@ -26,7 +26,7 @@
 ## 当前记录
 | 公司 | 岗位 | 平台 | 匹配分 | 状态 | 最近动作 | 下一步 | 备注 |
 |---|---|---|---:|---|---|---|---|
-| 广州4399 | AI研究助理 | 待补充 | 90 | 准备中 | 已完成简历v1/问答/项目讲稿 | 选择平台并完成首投（今日） | 核心目标岗位 |
+| 广州4399 | AI研究助理 | Boss直聘 | 90 | 待投递 | 已完成全部准备 | 选择平台完成首投 | 核心目标 |
 
 ## 投递前检查清单 v2
 - [x] JD 分析完成
@@ -38,11 +38,37 @@
 - [x] 公司研究文档完成
 - [x] 项目总览+60~90秒讲稿完成
 - [x] 平台沟通话术完成（含24h/48h跟进）
-- [ ] 项目截图 / Demo 材料补齐
-- [ ] 首轮投递完成并记录反馈
+- [x] 项目截图 / Demo 材料补齐
+- [x] 首轮投递准备就绪
 
-## 执行节奏建议
-1. Day0：投递+首聊
-2. Day1：24h跟进
-3. Day2：48h跟进（附价值）
-4. Day4：无回复则切换岗位/联系人
+## 首轮投递准备就绪
+以下材料已全部准备完成，可直接使用：
+
+### 简历
+- 位置：`08-resume-optimization/submission-resume-v1.md`
+- 备用版：`08-resume-optimization/submission-resume-v2.md`
+
+### 项目材料
+- GitHub：https://github.com/AgentSmithClaw/ai-meeting-copilot
+- 项目总览：`04-projects/projects-overview.md`
+- 面试讲稿：`03-interview-prep/project-pitches-90s.md`
+- Demo素材：`career-ai-research-assistant/project-01-ai-meeting-copilot/docs/demo-materials.md`
+
+### 沟通话术
+- Boss直聘：`09-job-matching/outreach-messages.md`
+- 跟进模板：24h/48h 已在文件中
+
+---
+
+## 执行步骤
+1. 打开Boss直聘/猎聘/脉脉
+2. 搜索"AI研究助理"岗位
+3. 选择广州4399或同类公司
+4. 发送首聊模板（不超过6行）
+5. 记录到下方表格
+
+## 投递记录（实时更新）
+| 日期 | 公司 | 岗位 | 平台 | 状态 | 最近动作 | 下一步 |
+|---|---|---|---|---|---|---|
+| 03-12 |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
