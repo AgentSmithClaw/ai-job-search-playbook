@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Job Search Playbook Dashboard</title>
+    <meta
+      name="description"
+      content="ai-job-search-playbook 的 GitHub Pages 静态仪表盘，展示仓库结构、重点文档和进度快照。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-glow"></div>
+    <main class="container">
+      <header class="hero card reveal">
+        <p class="badge">GitHub Pages Static Dashboard</p>
+        <h1>AI 求职项目总览</h1>
+        <p class="hero-text">
+          面向 <strong>ai-job-search-playbook</strong> 的静态看板，聚合仓库概览、模块导航、重点文档与进度快照。
+        </p>
+        <div id="overviewStats" class="overview-stats"></div>
+      </header>
+
+      <section class="section reveal">
+        <div class="section-head">
+          <h2>核心模块</h2>
+          <p>围绕求职闭环的 8 大工作流</p>
+        </div>
+        <div id="moduleGrid" class="grid module-grid"></div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-head">
+          <h2>重点文档</h2>
+          <p>优先阅读并持续更新的核心材料</p>
+        </div>
+        <div id="highlights" class="grid highlights-grid"></div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-head">
+          <h2>进度快照</h2>
+          <p>来自 <code>PROGRESS.md</code> 与计划文件的静态摘录</p>
+        </div>
+        <div class="grid progress-grid">
+          <article class="card">
+            <h3>近期完成</h3>
+            <ul id="progressDone" class="list"></ul>
+          </article>
+          <article class="card">
+            <h3>下一步</h3>
+            <ul id="progressNext" class="list"></ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-head">
+          <h2>快速入口</h2>
+          <p>直达仓库目录与关键总览文档</p>
+        </div>
+        <div id="quickLinks" class="card quick-links"></div>
+      </section>
+
+      <section class="section reveal">
+        <article class="card pages-note">
+          <h2>GitHub Pages 说明</h2>
+          <p>
+            本页是 <strong>GitHub Pages 静态仪表盘</strong>，页面文件位于仓库
+            <code>docs/</code> 目录。
+          </p>
+          <p>
+            业务内容源文件位于仓库根目录下的模块目录（如
+            <code>01-job-target/</code>、<code>04-projects/</code>、<code>09-job-matching/</code>），
+            仪表盘使用手工维护的静态数据进行展示，不在浏览器端动态读取本地 Markdown。
+          </p>
+          <p>
+            部署指引见 <a href="./README-PAGES.md">README-PAGES.md</a>。
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p id="footerText"></p>
+    </footer>
+
+    <noscript>
+      <div class="noscript">请启用 JavaScript 以渲染完整仪表盘内容。</div>
+    </noscript>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
