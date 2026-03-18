@@ -297,6 +297,14 @@ h1 {
   line-height: 1.5;
 }
 
+.portfolio-inline-link {
+  margin: 12px 0 0;
+}
+
+.portfolio-inline-link a {
+  font-weight: 600;
+}
+
 .case-tag {
   margin: 0 0 8px;
   display: inline-block;
