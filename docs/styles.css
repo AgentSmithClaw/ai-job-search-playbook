@@ -184,6 +184,38 @@ h1 {
   line-height: 1.42;
 }
 
+.rich-link-list,
+.rich-quick-links {
+  padding-left: 18px;
+}
+
+.rich-link-list li,
+.rich-quick-links li {
+  margin-top: 10px;
+}
+
+.link-summary {
+  margin: 4px 0 4px;
+  color: var(--muted);
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.path-note {
+  display: inline-block;
+  margin-top: 2px;
+  color: #6b7d78;
+  font-size: 0.78rem;
+}
+
+.path-note code {
+  background: #f3f7f6;
+  border: 1px solid #dfe8e4;
+  border-radius: 6px;
+  padding: 1px 6px;
+  font-size: 0.76rem;
+}
+
 a {
   color: #0f5f9e;
 }
