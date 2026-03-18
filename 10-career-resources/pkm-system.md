@@ -110,7 +110,11 @@ Knowledge/
 
 - 执行流程：`pkm-workflow.md`
 - 模板包：`pkm-templates.md`
+- 标签规则：`pkm-tagging-rules.md`
+- 使用说明：`pkm-usage-guide.md`
 - 项目进度：`../06-logs/kms-progress.md`
+- Inbox：`../00-Inbox/`
+- Daily Notes：`../06-logs/daily-notes/`
 
 ---
 
