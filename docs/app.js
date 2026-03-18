@@ -422,6 +422,31 @@ function renderDocItem(item) {
   `;
 }
 
+function renderCompactSection(section) {
+  const previewItems = section.items.slice(0, 2);
+  const hiddenItems = section.items.slice(2);
+  const preview = previewItems.map(renderDocItem).join("");
+  const hidden = hiddenItems.map(renderDocItem).join("");
+
+  return `
+    <article class="card section-block compact-section">
+      <div class="section-block-head">
+        <div>
+          <h3 class="section-block-title">${section.title}</h3>
+          <p class="module-meta">这个分类下共 ${section.items.length} 份文档，默认展示前 ${previewItems.length} 份。</p>
+        </div>
+      </div>
+      <ul class="link-list rich-link-list">${preview}</ul>
+      ${hiddenItems.length ? `
+        <details class="section-more">
+          <summary>展开查看其余 ${hiddenItems.length} 份</summary>
+          <ul class="link-list rich-link-list">${hidden}</ul>
+        </details>
+      ` : ""}
+    </article>
+  `;
+}
+
 function fillOverview() {
   const container = document.getElementById("overviewStats");
   if (!container) return;
@@ -521,12 +546,7 @@ function fillModulePage(slug) {
     `).join("");
   }
   if (sections) {
-    sections.innerHTML = module.sections.map((section) => `
-      <article class="card section-block">
-        <h3 class="section-block-title">${section.title}</h3>
-        <ul class="link-list rich-link-list">${section.items.map(renderDocItem).join("")}</ul>
-      </article>
-    `).join("");
+    sections.innerHTML = module.sections.map((section) => renderCompactSection(section)).join("");
   }
   if (breadcrumbs) {
     breadcrumbs.innerHTML = `<a href="./index.html">首页</a><span>/</span><span>${module.title}</span>`;

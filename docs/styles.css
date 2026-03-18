@@ -265,6 +265,34 @@ h1 {
   font-size: 1rem;
 }
 
+.section-block-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.compact-section {
+  padding-bottom: 10px;
+}
+
+.section-more {
+  margin-top: 10px;
+  border-top: 1px dashed var(--line);
+  padding-top: 10px;
+}
+
+.section-more summary {
+  cursor: pointer;
+  color: var(--brand);
+  font-size: 0.9rem;
+  user-select: none;
+}
+
+.section-more[open] summary {
+  margin-bottom: 8px;
+}
+
 a {
   color: #0f5f9e;
 }
