@@ -106,4 +106,12 @@ Knowledge/
 
 ---
 
-最后更新：2026-03-12
+## 7. 配套落地文档
+
+- 执行流程：`pkm-workflow.md`
+- 模板包：`pkm-templates.md`
+- 项目进度：`../06-logs/kms-progress.md`
+
+---
+
+最后更新：2026-03-18

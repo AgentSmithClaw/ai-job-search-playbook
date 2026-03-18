@@ -26,3 +26,9 @@
 - 完成岗位分析文档
 - 完成学习计划文档
 - 建立任务、决策、进度日志
+- 将个人知识管理系统（KMS）从方法论文档推进到实际使用流程
+
+## 新进展
+- KMS 已补充执行流程文档：`10-career-resources/pkm-workflow.md`
+- KMS 已补充模板包：`10-career-resources/pkm-templates.md`
+- KMS 已建立独立进度记录：`06-logs/kms-progress.md`
