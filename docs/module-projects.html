@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>项目作品 - AI 求职项目总览</title>
+    <meta name="description" content="项目作品模块的中文导航页。" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body data-page="projects">
+    <div class="bg-glow"></div>
+    <main class="container module-page">
+      <nav id="moduleBreadcrumbs" class="breadcrumbs"></nav>
+      <header class="hero card reveal">
+        <p class="badge">Module Navigation</p>
+        <h1 id="moduleTitle"></h1>
+        <p id="moduleIntro" class="hero-text"></p>
+        <div id="moduleStats" class="overview-stats"></div>
+      </header>
+      <section class="section reveal"><div class="section-head"><h2>推荐先看</h2><p>优先理解这个模块最关键的 3 份材料</p></div><div id="moduleFeatured" class="grid highlights-grid"></div></section>
+      <section class="section reveal"><div class="section-head"><h2>全部内容</h2><p>按中文语义整理后的完整导航</p></div><div id="moduleSections" class="grid module-sections"></div></section>
+    </main>
+    <footer class="footer"><p id="footerText"></p></footer>
+    <script src="./app.js"></script>
+  </body>
+</html>

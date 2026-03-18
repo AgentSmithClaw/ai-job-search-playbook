@@ -102,6 +102,7 @@ h1 {
   margin: 0;
   color: var(--muted);
   max-width: 780px;
+  line-height: 1.6;
 }
 
 .overview-stats {
@@ -135,7 +136,7 @@ h1 {
 }
 
 .module-grid {
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .highlights-grid {
@@ -144,6 +145,10 @@ h1 {
 
 .progress-grid {
   grid-template-columns: 1fr 1fr;
+}
+
+.module-sections {
+  grid-template-columns: 1fr;
 }
 
 .module-title {
@@ -155,6 +160,7 @@ h1 {
   margin: 8px 0;
   color: var(--muted);
   font-size: 0.9rem;
+  line-height: 1.55;
 }
 
 .module-tags {
@@ -216,6 +222,49 @@ h1 {
   font-size: 0.76rem;
 }
 
+.module-card-home {
+  display: flex;
+  flex-direction: column;
+}
+
+.module-actions {
+  margin-top: 14px;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: var(--brand);
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.button-link:hover {
+  background: #08735f;
+  color: #fff;
+}
+
+.breadcrumbs {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 14px;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.breadcrumbs a {
+  color: #0f5f9e;
+  text-decoration: none;
+}
+
+.section-block-title {
+  margin: 0 0 8px;
+  font-size: 1rem;
+}
+
 a {
   color: #0f5f9e;
 }
@@ -232,6 +281,7 @@ a:hover {
 
 .quick-links li {
   margin: 6px 0;
+  break-inside: avoid;
 }
 
 .pages-note p {
@@ -289,7 +339,8 @@ a:hover {
 }
 
 @media (max-width: 860px) {
-  .progress-grid {
+  .progress-grid,
+  .module-grid {
     grid-template-columns: 1fr;
   }
 

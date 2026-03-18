@@ -10,7 +10,7 @@
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body>
+  <body data-page="home">
     <div class="bg-glow"></div>
     <main class="container">
       <header class="hero card reveal">
@@ -25,7 +25,7 @@
       <section class="section reveal">
         <div class="section-head">
           <h2>核心模块</h2>
-          <p>围绕求职闭环的 8 大工作流</p>
+          <p>首页只保留 8 个模块卡片，每个模块展示 3 个重点文档，并可进入独立导航页查看全部内容。</p>
         </div>
         <div id="moduleGrid" class="grid module-grid"></div>
       </section>
@@ -71,9 +71,7 @@
             <code>docs/</code> 目录。
           </p>
           <p>
-            业务内容源文件位于仓库根目录下的模块目录（如
-            <code>01-job-target/</code>、<code>04-projects/</code>、<code>09-job-matching/</code>），
-            仪表盘使用手工维护的静态数据进行展示，不在浏览器端动态读取本地 Markdown。
+            模块首页采用“中文导航站”形式：主页展示重点内容，模块页承载完整入口与中文摘要。
           </p>
           <p>
             部署指引见 <a href="./README-PAGES.md">README-PAGES.md</a> / <a href="./README-VERCEL.md">README-VERCEL.md</a>。
