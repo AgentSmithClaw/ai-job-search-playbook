@@ -265,6 +265,7 @@
         },
         {
           "title": "自动收录",
+          "summary": "这部分是脚本自动归入、尚未手工细分的文档。",
           "items": [
             {
               "path": "02-learning-plan/tech-articles-list.md",
@@ -404,7 +405,7 @@
       ],
       "sections": [
         {
-          "title": "总览与展示",
+          "title": "项目展示",
           "items": [
             {
               "path": "04-projects/projects-overview.md",
@@ -424,7 +425,7 @@
           ]
         },
         {
-          "title": "产品与业务设计",
+          "title": "产品设计",
           "items": [
             {
               "path": "04-projects/ai-meeting-copilot-prd.md",
@@ -449,7 +450,7 @@
           ]
         },
         {
-          "title": "技术方案",
+          "title": "技术实现",
           "items": [
             {
               "path": "04-projects/ai-workflow-api.md",
@@ -500,6 +501,7 @@
         },
         {
           "title": "自动收录",
+          "summary": "这部分是脚本自动归入、尚未手工细分的文档。",
           "items": [
             {
               "path": "04-projects/ai-research-brief-io.md",
@@ -594,7 +596,7 @@
           ]
         },
         {
-          "title": "个人品牌",
+          "title": "品牌展示",
           "items": [
             {
               "path": "13-personal-brand/github-profile.md",
@@ -638,7 +640,7 @@
       ],
       "sections": [
         {
-          "title": "筛岗与排序",
+          "title": "筛岗决策",
           "items": [
             {
               "path": "09-job-matching/top20-jobs.md",
@@ -693,7 +695,7 @@
           ]
         },
         {
-          "title": "节奏与复盘",
+          "title": "节奏复盘",
           "items": [
             {
               "path": "09-job-matching/weekly-rhythm.md",
@@ -743,7 +745,7 @@
       ],
       "sections": [
         {
-          "title": "职业资源",
+          "title": "职业支持",
           "items": [
             {
               "path": "10-career-resources/weekly-study-plan.md",
@@ -814,6 +816,7 @@
         },
         {
           "title": "自动收录",
+          "summary": "这部分是脚本自动归入、尚未手工细分的文档。",
           "items": [
             {
               "path": "10-career-resources/industry-report-template.md",
@@ -860,7 +863,7 @@
       ],
       "sections": [
         {
-          "title": "日志与复盘",
+          "title": "复盘记录",
           "items": [
             {
               "path": "06-logs/conversation-notes.md",
@@ -910,7 +913,7 @@
           ]
         },
         {
-          "title": "预案与恢复",
+          "title": "风险预案",
           "items": [
             {
               "path": "17-emergency/backup-plan.md",

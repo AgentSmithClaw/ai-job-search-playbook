@@ -87,6 +87,7 @@ const modules = meta.modules.map((module) => {
   if (uncategorized.length) {
     sections.push({
       title: '自动收录',
+      summary: '这部分是脚本自动归入、尚未手工细分的文档。',
       items: uncategorized.sort().map((docPath) => pickDoc(docPath))
     });
   }

@@ -293,6 +293,22 @@ h1 {
   margin-bottom: 8px;
 }
 
+.category-card {
+  padding-bottom: 14px;
+}
+
+.category-meta {
+  margin: 4px 0 0;
+  color: #4d625d;
+  font-size: 0.82rem;
+}
+
+.more-note {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
 a {
   color: #0f5f9e;
 }

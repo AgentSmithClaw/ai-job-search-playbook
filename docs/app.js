@@ -41,20 +41,19 @@ function renderCompactSection(section) {
   const hidden = hiddenItems.map(renderDocItem).join("");
 
   return `
-    <article class="card section-block compact-section">
+    <article class="card section-block compact-section category-card">
       <div class="section-block-head">
         <div>
           <h3 class="section-block-title">${section.title}</h3>
-          <p class="module-meta">这个分类下共 ${section.items.length} 份文档，默认展示前 ${previewItems.length} 份。</p>
+          <p class="module-meta">${section.summary || '这个分类下的相关文档已聚合在一起。'}</p>
+          <p class="category-meta">共 ${section.items.length} 份文档</p>
         </div>
       </div>
-      <ul class="link-list rich-link-list">${preview}</ul>
-      ${hiddenItems.length ? `
-        <details class="section-more">
-          <summary>展开查看其余 ${hiddenItems.length} 份</summary>
-          <ul class="link-list rich-link-list">${hidden}</ul>
-        </details>
-      ` : ""}
+      <details class="section-more">
+        <summary>查看这个分类</summary>
+        <ul class="link-list rich-link-list">${preview}</ul>
+        ${hiddenItems.length ? `<div class="more-note">其余 ${hiddenItems.length} 份继续如下：</div><ul class="link-list rich-link-list">${hidden}</ul>` : ''}
+      </details>
     </article>
   `;
 }

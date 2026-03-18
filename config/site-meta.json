@@ -36,9 +36,9 @@
         "01-job-target/jd-evidence-map.md"
       ],
       "sections": [
-        { "title": "岗位定位", "include": ["01-job-target/target-role.md", "01-job-target/jd-analysis.md"] },
-        { "title": "差距与证据", "include": ["01-job-target/gap-analysis.md", "01-job-target/jd-evidence-map.md"] },
-        { "title": "公司研究", "include": ["01-job-target/company-research.md"] }
+        { "title": "岗位定位", "summary": "先明确想投什么岗位，以及这个岗位到底要什么。", "include": ["01-job-target/target-role.md", "01-job-target/jd-analysis.md"] },
+        { "title": "差距与证据", "summary": "把当前短板和已有证据对应起来，形成可执行的补齐路径。", "include": ["01-job-target/gap-analysis.md", "01-job-target/jd-evidence-map.md"] },
+        { "title": "公司研究", "summary": "面向目标公司做背景研究，方便投递前和面试前快速预习。", "include": ["01-job-target/company-research.md"] }
       ]
     },
     {
@@ -53,9 +53,9 @@
         "12-learning/product-thinking.md"
       ],
       "sections": [
-        { "title": "阶段计划", "include": ["02-learning-plan/3-month-plan.md", "02-learning-plan/6-month-plan.md", "10-career-resources/weekly-study-plan.md"] },
-        { "title": "学习索引与资料", "include": ["02-learning-plan/LEARNING-NOTES-INDEX.md", "02-learning-plan/ai-ml-resources.md", "02-learning-plan/system-design-resources.md"] },
-        { "title": "专项训练", "include": ["12-learning/product-thinking.md", "12-learning/business-thinking.md", "12-learning/english-learning.md", "12-learning/public-speaking.md", "12-learning/writing-skills.md"] }
+        { "title": "阶段计划", "summary": "按时间周期组织学习安排，先解决近 3 到 6 个月该做什么。", "include": ["02-learning-plan/3-month-plan.md", "02-learning-plan/6-month-plan.md", "10-career-resources/weekly-study-plan.md"] },
+        { "title": "学习索引与资料", "summary": "把学习入口、资源清单和参考资料收在一起，方便按主题查阅。", "include": ["02-learning-plan/LEARNING-NOTES-INDEX.md", "02-learning-plan/ai-ml-resources.md", "02-learning-plan/system-design-resources.md"] },
+        { "title": "专项训练", "summary": "针对产品、商业、英语和表达能力做专项补强。", "include": ["12-learning/product-thinking.md", "12-learning/business-thinking.md", "12-learning/english-learning.md", "12-learning/public-speaking.md", "12-learning/writing-skills.md"] }
       ]
     },
     {
@@ -70,9 +70,9 @@
         "03-interview-prep/project-pitches-90s.md"
       ],
       "sections": [
-        { "title": "基础表达", "include": ["03-interview-prep/self-introduction.md", "03-interview-prep/self-introduction-v2.md", "03-interview-prep/interview-onepager.md"] },
-        { "title": "案例与项目讲述", "include": ["03-interview-prep/star-cases.md", "03-interview-prep/project-pitches-90s.md"] },
-        { "title": "题库与模拟", "include": ["03-interview-prep/interview-qa.md", "14-interview/behavioral-questions.md", "14-interview/system-design-questions.md", "14-interview/coding-prep.md", "14-interview/mock-interview-log.md"] }
+        { "title": "基础表达", "summary": "先把自我介绍和一页总览卡打磨好，建立统一口径。", "include": ["03-interview-prep/self-introduction.md", "03-interview-prep/self-introduction-v2.md", "03-interview-prep/interview-onepager.md"] },
+        { "title": "案例与项目讲述", "summary": "把经历整理成 STAR 故事，并准备项目短讲版本。", "include": ["03-interview-prep/star-cases.md", "03-interview-prep/project-pitches-90s.md"] },
+        { "title": "题库与模拟", "summary": "把常见问题、专项题型和模拟记录集中管理。", "include": ["03-interview-prep/interview-qa.md", "14-interview/behavioral-questions.md", "14-interview/system-design-questions.md", "14-interview/coding-prep.md", "14-interview/mock-interview-log.md"] }
       ]
     },
     {
@@ -87,9 +87,9 @@
         "05-portfolio/github-plan.md"
       ],
       "sections": [
-        { "title": "总览与展示", "include": ["04-projects/projects-overview.md", "04-projects/demo-video-outline.md", "05-portfolio/github-plan.md"] },
-        { "title": "产品与业务设计", "include": ["04-projects/ai-meeting-copilot-prd.md", "04-projects/ai-meeting-copilot-demo.md", "04-projects/ai-research-brief-generator-readme.md", "04-projects/ai-research-brief-template.md"] },
-        { "title": "技术方案", "include": ["04-projects/ai-workflow-api.md", "04-projects/ai-workflow-database.md", "04-projects/ai-workflow-scoring.md", "04-projects/scoring-algorithm.md", "04-projects/llm-integration.md", "04-projects/auth-system.md", "04-projects/data-export.md", "04-projects/i18n-support.md", "04-projects/ai-research-brief-error-handling.md"] }
+        { "title": "项目展示", "summary": "只看最适合对外展示和面试讲述的材料，包括项目总览、Demo 和展示规划。", "include": ["04-projects/projects-overview.md", "04-projects/demo-video-outline.md", "05-portfolio/github-plan.md"] },
+        { "title": "产品设计", "summary": "聚焦 PRD、业务场景、用户问题与方案设计，不再按单个项目文件散开。", "include": ["04-projects/ai-meeting-copilot-prd.md", "04-projects/ai-meeting-copilot-demo.md", "04-projects/ai-research-brief-generator-readme.md", "04-projects/ai-research-brief-template.md"] },
+        { "title": "技术实现", "summary": "把接口、数据、评分、集成、认证和导出等技术材料合并成一个实现类分类。", "include": ["04-projects/ai-workflow-api.md", "04-projects/ai-workflow-database.md", "04-projects/ai-workflow-scoring.md", "04-projects/scoring-algorithm.md", "04-projects/llm-integration.md", "04-projects/auth-system.md", "04-projects/data-export.md", "04-projects/i18n-support.md", "04-projects/ai-research-brief-error-handling.md"] }
       ]
     },
     {
@@ -104,9 +104,9 @@
         "08-resume-optimization/targeted-resume-ai-research-assistant.md"
       ],
       "sections": [
-        { "title": "简历版本", "include": ["08-resume-optimization/master-resume.md", "08-resume-optimization/submission-resume-v1.md", "08-resume-optimization/submission-resume-v2.md", "08-resume-optimization/targeted-resume-ai-research-assistant.md"] },
-        { "title": "内容打磨", "include": ["08-resume-optimization/project-bullets.md", "08-resume-optimization/resume-improvement-notes.md"] },
-        { "title": "个人品牌", "include": ["13-personal-brand/github-profile.md", "13-personal-brand/tech-resume-template.md"] }
+        { "title": "简历版本", "summary": "集中管理主简历、投递版和岗位定制版，避免一堆版本散落。", "include": ["08-resume-optimization/master-resume.md", "08-resume-optimization/submission-resume-v1.md", "08-resume-optimization/submission-resume-v2.md", "08-resume-optimization/targeted-resume-ai-research-assistant.md"] },
+        { "title": "内容打磨", "summary": "把项目要点和修改记录归到一类，专门解决“怎么写得更好”。", "include": ["08-resume-optimization/project-bullets.md", "08-resume-optimization/resume-improvement-notes.md"] },
+        { "title": "品牌展示", "summary": "把 GitHub 主页和技术型模板收成一个对外展示类分类。", "include": ["13-personal-brand/github-profile.md", "13-personal-brand/tech-resume-template.md"] }
       ]
     },
     {
@@ -121,9 +121,9 @@
         "09-job-matching/application-tracker.md"
       ],
       "sections": [
-        { "title": "筛岗与排序", "include": ["09-job-matching/top20-jobs.md", "09-job-matching/matched-jobs.md", "09-job-matching/opportunity-scoring.md", "09-job-matching/matching-rules.md", "09-job-matching/target-platforms.md"] },
-        { "title": "投递执行", "include": ["09-job-matching/application-tracker.md", "09-job-matching/outreach-messages.md", "09-job-matching/rejection-template.md", "09-job-matching/communication-records.md"] },
-        { "title": "节奏与复盘", "include": ["09-job-matching/weekly-rhythm.md", "09-job-matching/weekly-review.md", "09-job-matching/next-week-tasks.md"] }
+        { "title": "筛岗决策", "summary": "把筛岗、排序、评分和平台选择归为同一类，减少碎片感。", "include": ["09-job-matching/top20-jobs.md", "09-job-matching/matched-jobs.md", "09-job-matching/opportunity-scoring.md", "09-job-matching/matching-rules.md", "09-job-matching/target-platforms.md"] },
+        { "title": "投递执行", "summary": "投递表、沟通模板和记录统一收进执行类分类。", "include": ["09-job-matching/application-tracker.md", "09-job-matching/outreach-messages.md", "09-job-matching/rejection-template.md", "09-job-matching/communication-records.md"] },
+        { "title": "节奏复盘", "summary": "把每周节奏、复盘和下周任务合在一起，方便持续推进。", "include": ["09-job-matching/weekly-rhythm.md", "09-job-matching/weekly-review.md", "09-job-matching/next-week-tasks.md"] }
       ]
     },
     {
@@ -138,8 +138,8 @@
         "11-efficiency-tools/cli-tools.md"
       ],
       "sections": [
-        { "title": "职业资源", "include": ["10-career-resources/weekly-study-plan.md", "10-career-resources/salary-negotiation.md", "10-career-resources/thank-you-letter.md", "10-career-resources/linkedin-optimization.md", "10-career-resources/onboarding-checklist.md", "10-career-resources/resignation-guide.md", "10-career-resources/workplace-strategies.md", "10-career-resources/tech-books.md"] },
-        { "title": "效率工具", "include": ["11-efficiency-tools/cli-tools.md", "11-efficiency-tools/productivity-tools.md", "11-efficiency-tools/shortcuts-cheatsheet.md", "11-efficiency-tools/vscode-plugins.md"] }
+        { "title": "职业支持", "summary": "把谈薪、LinkedIn、入离职、感谢信等职业支持材料合并成一个大类。", "include": ["10-career-resources/weekly-study-plan.md", "10-career-resources/salary-negotiation.md", "10-career-resources/thank-you-letter.md", "10-career-resources/linkedin-optimization.md", "10-career-resources/onboarding-checklist.md", "10-career-resources/resignation-guide.md", "10-career-resources/workplace-strategies.md", "10-career-resources/tech-books.md"] },
+        { "title": "效率工具", "summary": "把命令行工具、插件、快捷键和效率工具聚成一个工具类分类。", "include": ["11-efficiency-tools/cli-tools.md", "11-efficiency-tools/productivity-tools.md", "11-efficiency-tools/shortcuts-cheatsheet.md", "11-efficiency-tools/vscode-plugins.md"] }
       ]
     },
     {
@@ -154,9 +154,9 @@
         "16-career-growth/one-year-goals.md"
       ],
       "sections": [
-        { "title": "日志与复盘", "include": ["06-logs/conversation-notes.md", "15-reflection/daily-review.md", "15-reflection/monthly-review.md", "15-reflection/quarterly-review.md", "15-reflection/annual-review.md"] },
-        { "title": "成长规划", "include": ["16-career-growth/first-week-guide.md", "16-career-growth/one-year-goals.md", "16-career-growth/upward-communication.md"] },
-        { "title": "预案与恢复", "include": ["17-emergency/backup-plan.md", "17-emergency/career-crisis.md", "17-emergency/interview-failure-review.md", "17-emergency/mindset-adjustment.md"] }
+        { "title": "复盘记录", "summary": "把日、月、季、年复盘和沟通记录收成一个回顾类分类。", "include": ["06-logs/conversation-notes.md", "15-reflection/daily-review.md", "15-reflection/monthly-review.md", "15-reflection/quarterly-review.md", "15-reflection/annual-review.md"] },
+        { "title": "成长规划", "summary": "聚焦长期成长、入职适应和向上沟通这类发展主题。", "include": ["16-career-growth/first-week-guide.md", "16-career-growth/one-year-goals.md", "16-career-growth/upward-communication.md"] },
+        { "title": "风险预案", "summary": "把备选方案、危机处理、失败复盘和心态调整整合为风险预案类。", "include": ["17-emergency/backup-plan.md", "17-emergency/career-crisis.md", "17-emergency/interview-failure-review.md", "17-emergency/mindset-adjustment.md"] }
       ]
     }
   ]
