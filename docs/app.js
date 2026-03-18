@@ -160,7 +160,7 @@ function fillModulePage(slug) {
     sections.innerHTML = module.sections.map((section) => renderCompactSection(section)).join("");
   }
   if (breadcrumbs) {
-    breadcrumbs.innerHTML = `<a href="./index.html">首页</a><span>/</span><span>${module.title}</span>`;
+    breadcrumbs.innerHTML = `<a href="./dashboard.html">工作台首页</a><span>/</span><span>${module.title}</span>`;
   }
   document.title = `${module.title} - AI 求职项目总览`;
 }

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Job Search Dashboard</title>
+    <meta
+      name="description"
+      content="ai-job-search-playbook 的对内求职工作台，展示模块导航、重点文档和进度快照。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body data-page="home">
+    <div class="bg-glow"></div>
+    <main class="container">
+      <header class="hero card reveal">
+        <p class="badge">Career OS / Dashboard</p>
+        <h1>AI 求职工作台</h1>
+        <p class="hero-text">
+          面向 <strong>ai-job-search-playbook</strong> 的对内工作台，承载岗位分析、学习计划、面试准备、项目资料、简历优化与投递跟踪。
+        </p>
+        <p class="hero-text dashboard-top-link">
+          对外展示请看：<a href="./index.html">求职作品站首页</a>
+        </p>
+        <div id="overviewStats" class="overview-stats"></div>
+      </header>
+
+      <section class="section reveal">
+        <div class="section-head">
+          <h2>核心模块</h2>
+          <p>首页保留 8 个模块卡片，每个模块展示 3 个重点文档，并可进入独立导航页查看全部内容。</p>
+        </div>
+        <div id="moduleGrid" class="grid module-grid"></div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-head">
+          <h2>重点文档</h2>
+          <p>优先阅读并持续更新的核心材料</p>
+        </div>
+        <div id="highlights" class="grid highlights-grid"></div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-head">
+          <h2>进度快照</h2>
+          <p>来自 <code>PROGRESS.md</code> 与计划文件的静态摘录</p>
+        </div>
+        <div class="grid progress-grid">
+          <article class="card">
+            <h3>近期完成</h3>
+            <ul id="progressDone" class="list"></ul>
+          </article>
+          <article class="card">
+            <h3>下一步</h3>
+            <ul id="progressNext" class="list"></ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-head">
+          <h2>快速入口</h2>
+          <p>直达仓库目录与关键总览文档</p>
+        </div>
+        <div id="quickLinks" class="card quick-links"></div>
+      </section>
+
+      <section class="section reveal">
+        <article class="card pages-note">
+          <h2>站点说明</h2>
+          <p>
+            这是 <strong>对内求职工作台</strong>，用于管理完整求职流程和资料库。
+          </p>
+          <p>
+            对外展示型内容已拆到 <a href="./index.html">求职作品站首页</a>；本页继续承载全量模块导航与知识库入口。
+          </p>
+          <p>
+            部署指引见 <a href="./README-PAGES.md">README-PAGES.md</a> / <a href="./README-VERCEL.md">README-VERCEL.md</a>。
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p id="footerText"></p>
+    </footer>
+
+    <noscript>
+      <div class="noscript">请启用 JavaScript 以渲染完整仪表盘内容。</div>
+    </noscript>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

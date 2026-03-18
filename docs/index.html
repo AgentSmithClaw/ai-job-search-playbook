@@ -3,91 +3,127 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>AI Job Search Playbook Dashboard</title>
+    <title>AI 求职作品站</title>
     <meta
       name="description"
-      content="ai-job-search-playbook 的 GitHub Pages 静态仪表盘，展示仓库结构、重点文档和进度快照。"
+      content="面向 AI 研究助理 / AI 应用研究方向的求职作品站，集中展示项目、岗位证据与核心材料。"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body data-page="home">
+  <body>
     <div class="bg-glow"></div>
-    <main class="container">
-      <header class="hero card reveal">
-        <p class="badge">GitHub Pages Static Dashboard</p>
-        <h1>AI 求职项目总览</h1>
+    <main class="container portfolio-page">
+      <header class="hero card reveal portfolio-hero">
+        <p class="badge">Candidate Portfolio</p>
+        <h1>AI 应用研究 / 流程效率方向求职作品站</h1>
         <p class="hero-text">
-          面向 <strong>ai-job-search-playbook</strong> 的静态看板，聚合仓库概览、模块导航、重点文档与进度快照。
+          面向 AI 研究助理、AI 应用研究、流程效率优化方向的对外展示站。
+          这里不展示全部资料库，只保留最值得招聘者先看的项目、证据和表达材料。
         </p>
-        <div id="overviewStats" class="overview-stats"></div>
+        <div class="overview-stats portfolio-stats">
+          <div class="stat-box"><b>AI研究助理</b><span>目标岗位</span></div>
+          <div class="stat-box"><b>3 个</b><span>核心项目</span></div>
+          <div class="stat-box"><b>4 份</b><span>关键证据材料</span></div>
+          <div class="stat-box"><b>1 个</b><span>对内工作台</span></div>
+        </div>
       </header>
 
       <section class="section reveal">
         <div class="section-head">
-          <h2>核心模块</h2>
-          <p>首页只保留 8 个模块卡片，每个模块展示 3 个重点文档，并可进入独立导航页查看全部内容。</p>
+          <h2>我适合做什么</h2>
+          <p>用最短时间让招聘者理解我的方向、优势和适配岗位</p>
         </div>
-        <div id="moduleGrid" class="grid module-grid"></div>
-      </section>
-
-      <section class="section reveal">
-        <div class="section-head">
-          <h2>重点文档</h2>
-          <p>优先阅读并持续更新的核心材料</p>
-        </div>
-        <div id="highlights" class="grid highlights-grid"></div>
-      </section>
-
-      <section class="section reveal">
-        <div class="section-head">
-          <h2>进度快照</h2>
-          <p>来自 <code>PROGRESS.md</code> 与计划文件的静态摘录</p>
-        </div>
-        <div class="grid progress-grid">
+        <div class="grid highlights-grid">
           <article class="card">
-            <h3>近期完成</h3>
-            <ul id="progressDone" class="list"></ul>
+            <h3 class="module-title">业务问题拆解</h3>
+            <p class="module-meta">能够把业务痛点、流程断点和低效环节拆成可执行问题清单，而不是只停留在概念层面。</p>
           </article>
           <article class="card">
-            <h3>下一步</h3>
-            <ul id="progressNext" class="list"></ul>
+            <h3 class="module-title">AI 场景落地</h3>
+            <p class="module-meta">擅长把 AI 工具嵌入真实流程，用 MVP 和结构化方案验证业务价值。</p>
+          </article>
+          <article class="card">
+            <h3 class="module-title">跨团队推进</h3>
+            <p class="module-meta">有需求分析、项目推进、风险识别和闭环跟进经验，能把方案往前推而不只是写文档。</p>
           </article>
         </div>
       </section>
 
       <section class="section reveal">
         <div class="section-head">
-          <h2>快速入口</h2>
-          <p>直达仓库目录与关键总览文档</p>
+          <h2>核心项目</h2>
+          <p>优先看这 3 个项目，它们最能体现我的 AI 应用研究与落地能力</p>
         </div>
-        <div id="quickLinks" class="card quick-links"></div>
+        <div class="grid highlights-grid">
+          <article class="card">
+            <h3 class="module-title">AI Meeting Copilot</h3>
+            <p class="module-meta">把会议内容结构化为纪要与行动项，解决会后执行断档问题，已完成 MVP 原型链路。</p>
+            <p><a href="./module-projects.html">查看项目材料</a></p>
+          </article>
+          <article class="card">
+            <h3 class="module-title">AI Research Brief Generator</h3>
+            <p class="module-meta">把分散资讯转成结构化研究简报，强调“从信息收集到研究输出”的完整链路设计。</p>
+            <p><a href="https://github.com/AgentSmithClaw/ai-job-search-playbook/blob/main/04-projects/projects-overview.md" target="_blank" rel="noopener noreferrer">查看项目总览</a></p>
+          </article>
+          <article class="card">
+            <h3 class="module-title">AI Workflow Opportunity Scanner</h3>
+            <p class="module-meta">通过流程拆解、机会评分和试点建议，把 AI 场景识别从抽象讨论变成可执行方案。</p>
+            <p><a href="https://github.com/AgentSmithClaw/ai-job-search-playbook/blob/main/04-projects/projects-overview.md" target="_blank" rel="noopener noreferrer">查看项目总览</a></p>
+          </article>
+        </div>
       </section>
 
       <section class="section reveal">
-        <article class="card pages-note">
-          <h2>GitHub Pages 说明</h2>
-          <p>
-            本页是 <strong>GitHub Pages 静态仪表盘</strong>，页面文件位于仓库
-            <code>docs/</code> 目录。
-          </p>
-          <p>
-            模块首页采用“半动态静态站”形式：主页展示重点内容，模块页承载完整入口与中文摘要，站点数据由脚本自动生成。
-          </p>
-          <p>
-            部署指引见 <a href="./README-PAGES.md">README-PAGES.md</a> / <a href="./README-VERCEL.md">README-VERCEL.md</a>。
-          </p>
-        </article>
+        <div class="section-head">
+          <h2>关键证据</h2>
+          <p>如果只看 4 份材料，这 4 份最能快速建立岗位匹配感</p>
+        </div>
+        <div class="grid highlights-grid">
+          <article class="card">
+            <h3 class="module-title">项目总览（面试可讲版）</h3>
+            <p class="module-meta">快速理解 3 个项目的背景、职责、技术方案和业务价值。</p>
+            <a href="https://github.com/AgentSmithClaw/ai-job-search-playbook/blob/main/04-projects/projects-overview.md" target="_blank" rel="noopener noreferrer">查看原文</a>
+          </article>
+          <article class="card">
+            <h3 class="module-title">面试一页总览卡</h3>
+            <p class="module-meta">用最短时间看懂我的背景、优势、项目速览和面试表达重点。</p>
+            <a href="https://github.com/AgentSmithClaw/ai-job-search-playbook/blob/main/03-interview-prep/interview-onepager.md" target="_blank" rel="noopener noreferrer">查看原文</a>
+          </article>
+          <article class="card">
+            <h3 class="module-title">岗位要求-证据映射</h3>
+            <p class="module-meta">把目标岗位要求逐项映射到我已有的项目、经历和表达证据。</p>
+            <a href="https://github.com/AgentSmithClaw/ai-job-search-playbook/blob/main/01-job-target/jd-evidence-map.md" target="_blank" rel="noopener noreferrer">查看原文</a>
+          </article>
+          <article class="card">
+            <h3 class="module-title">投递简历 v2</h3>
+            <p class="module-meta">结果导向的一页版简历，用于快速判断候选人是否值得进入下一轮沟通。</p>
+            <a href="https://github.com/AgentSmithClaw/ai-job-search-playbook/blob/main/08-resume-optimization/submission-resume-v2.md" target="_blank" rel="noopener noreferrer">查看原文</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-head">
+          <h2>两个入口</h2>
+          <p>对外看精选，对内看完整资料库</p>
+        </div>
+        <div class="grid highlights-grid">
+          <article class="card">
+            <h3 class="module-title">对外站（当前页）</h3>
+            <p class="module-meta">用于向 HR、招聘经理、面试官展示我的项目、岗位匹配证据和核心表达材料。</p>
+            <p class="path-note">适合首次浏览、快速判断、建立信任。</p>
+          </article>
+          <article class="card">
+            <h3 class="module-title">对内工作台</h3>
+            <p class="module-meta">用于管理完整求职流程，包括学习计划、面试准备、项目资料、简历优化、投递跟踪与复盘成长。</p>
+            <p><a class="button-link" href="./dashboard.html">进入工作台</a></p>
+          </article>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <p id="footerText"></p>
+      <p>当前为对外展示页；完整资料库与模块导航请进入 Dashboard。</p>
     </footer>
-
-    <noscript>
-      <div class="noscript">请启用 JavaScript 以渲染完整仪表盘内容。</div>
-    </noscript>
-
-    <script src="./app.js"></script>
   </body>
 </html>

@@ -246,6 +246,22 @@ h1 {
   color: #fff;
 }
 
+.portfolio-page .portfolio-hero {
+  border-color: #cfe9e2;
+}
+
+.portfolio-stats {
+  margin-top: 18px;
+}
+
+.dashboard-top-link {
+  margin-top: 12px;
+}
+
+.dashboard-top-link a {
+  font-weight: 600;
+}
+
 .breadcrumbs {
   display: flex;
   gap: 8px;
