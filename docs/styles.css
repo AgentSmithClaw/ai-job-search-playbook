@@ -250,8 +250,76 @@ h1 {
   border-color: #cfe9e2;
 }
 
+.portfolio-hero-strong {
+  background: linear-gradient(180deg, #ffffff 0%, #f4fbf8 100%);
+}
+
 .portfolio-stats {
   margin-top: 18px;
+}
+
+.portfolio-lead {
+  font-size: 1rem;
+}
+
+.portfolio-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.button-link-secondary {
+  background: #edf7f4;
+  color: #0b6d5a;
+  border: 1px solid #cce8df;
+}
+
+.button-link-secondary:hover {
+  background: #e1f2ec;
+  color: #085c4b;
+}
+
+.value-card,
+.portfolio-project-card,
+.case-highlight-card {
+  border-color: #d5e8e2;
+}
+
+.portfolio-bullets {
+  margin: 12px 0 0;
+  padding-left: 18px;
+  color: #304541;
+}
+
+.portfolio-bullets li {
+  margin-top: 6px;
+  line-height: 1.5;
+}
+
+.case-tag {
+  margin: 0 0 8px;
+  display: inline-block;
+  font-size: 0.78rem;
+  color: #0b6d5a;
+  background: #e5f6f1;
+  border: 1px solid #cde9e1;
+  border-radius: 999px;
+  padding: 4px 8px;
+}
+
+.case-tag-warm {
+  color: #9a4c17;
+  background: #fff1e7;
+  border-color: #ffd7bf;
+}
+
+.case-grid {
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+.case-study {
+  margin-top: 28px;
 }
 
 .dashboard-top-link {

@@ -3,24 +3,107 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>项目作品 - AI 求职项目总览</title>
-    <meta name="description" content="项目作品模块的中文导航页。" />
+    <title>项目案例 - AI 求职作品站</title>
+    <meta name="description" content="AI 求职作品站中的项目案例页。" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body data-page="projects">
+  <body>
     <div class="bg-glow"></div>
-    <main class="container module-page">
-      <nav id="moduleBreadcrumbs" class="breadcrumbs"></nav>
-      <header class="hero card reveal">
-        <p class="badge">Module Navigation</p>
-        <h1 id="moduleTitle"></h1>
-        <p id="moduleIntro" class="hero-text"></p>
-        <div id="moduleStats" class="overview-stats"></div>
+    <main class="container portfolio-page project-case-page">
+      <nav class="breadcrumbs">
+        <a href="./index.html">作品站首页</a><span>/</span><span>项目案例</span>
+      </nav>
+
+      <header class="hero card reveal portfolio-hero portfolio-hero-strong">
+        <p class="badge">Project Case Studies</p>
+        <h1>3 个最能说明我的项目案例</h1>
+        <p class="hero-text">
+          这页不是资料库导航，而是从招聘视角重新组织后的项目案例页。
+          每个项目都按「背景 - 我的职责 - 方案 - 当前结果 - 下一步」来讲，方便快速判断我是否适合进入下一轮沟通。
+        </p>
       </header>
-      <section class="section reveal"><div class="section-head"><h2>推荐先看</h2><p>优先理解这个模块最关键的 3 份材料</p></div><div id="moduleFeatured" class="grid highlights-grid"></div></section>
-      <section class="section reveal"><div class="section-head"><h2>全部内容</h2><p>按中文语义整理后的完整导航</p></div><div id="moduleSections" class="grid module-sections"></div></section>
+
+      <section class="section reveal case-study" id="meeting-copilot">
+        <div class="section-head">
+          <h2>项目 1：AI Meeting Copilot</h2>
+          <p>关键词：会议纪要结构化、行动项闭环、MVP 已完成</p>
+        </div>
+        <div class="grid highlights-grid case-grid">
+          <article class="card"><h3 class="module-title">项目背景</h3><p class="module-meta">企业会议场景中，信息常分散在聊天记录、语音纪要和个人笔记里，导致会后行动项不清、责任人不明、跟进断档。</p></article>
+          <article class="card"><h3 class="module-title">我的职责</h3><p class="module-meta">负责问题定义、目标设计、产品流程与数据结构设计，并推进前后端原型联动与展示节奏。</p></article>
+          <article class="card"><h3 class="module-title">技术与实现</h3><p class="module-meta">使用 FastAPI + SQLite + HTML 原型，把非结构化会议内容转成结构化纪要与执行清单。</p></article>
+          <article class="card"><h3 class="module-title">当前结果</h3><p class="module-meta">已完成项目骨架、PRD、前后端原型和样例数据，支持会议输入、结构化生成、本地保存与历史查询。</p></article>
+        </div>
+        <article class="card case-highlight-card">
+          <h3 class="module-title">为什么这个项目重要</h3>
+          <p class="module-meta">它不是“只做摘要”，而是把纪要变成可执行任务流，重点体现我把信息沉淀升级为执行系统的思路。</p>
+          <p class="module-meta">下一步会继续打磨状态管理、提醒机制和演示数据，把它收敛成可展示的 MVP。</p>
+          <div class="portfolio-cta-row">
+            <a class="button-link" href="https://github.com/AgentSmithClaw/ai-job-search-playbook/blob/main/04-projects/projects-overview.md" target="_blank" rel="noopener noreferrer">查看项目总览</a>
+            <a class="button-link button-link-secondary" href="https://github.com/AgentSmithClaw/ai-job-search-playbook/blob/main/04-projects/ai-meeting-copilot-prd.md" target="_blank" rel="noopener noreferrer">查看 PRD</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="section reveal case-study" id="research-brief">
+        <div class="section-head">
+          <h2>项目 2：AI Research Brief Generator</h2>
+          <p>关键词：研究简报、信息清洗、结构化输出</p>
+        </div>
+        <div class="grid highlights-grid case-grid">
+          <article class="card"><h3 class="module-title">项目背景</h3><p class="module-meta">AI 研究助理岗位需要高频处理行业动态、竞品信息和技术趋势，手工搜集效率低，输出格式也不稳定。</p></article>
+          <article class="card"><h3 class="module-title">我的职责</h3><p class="module-meta">负责定义研究输出模板、设计信息采集与摘要流程，并建立可复用的研究简报结构。</p></article>
+          <article class="card"><h3 class="module-title">方案重点</h3><p class="module-meta">从多来源信息采集、清洗去重、主题归类到摘要与建议输出，形成标准化研究简报。</p></article>
+          <article class="card"><h3 class="module-title">当前状态</h3><p class="module-meta">已完成项目定位与能力目标定义，下一步会补完整 PRD、字段设计与样例输入输出。</p></article>
+        </div>
+        <article class="card case-highlight-card">
+          <h3 class="module-title">为什么这个项目重要</h3>
+          <p class="module-meta">它非常贴近 AI 研究助理岗位核心价值：不是简单堆信息，而是把信息变成可汇报、可判断、可复用的研究材料。</p>
+          <div class="portfolio-cta-row">
+            <a class="button-link" href="https://github.com/AgentSmithClaw/ai-job-search-playbook/blob/main/04-projects/projects-overview.md" target="_blank" rel="noopener noreferrer">查看项目总览</a>
+            <a class="button-link button-link-secondary" href="https://github.com/AgentSmithClaw/ai-job-search-playbook/blob/main/04-projects/ai-research-brief-generator-readme.md" target="_blank" rel="noopener noreferrer">查看项目说明</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="section reveal case-study" id="workflow-scanner">
+        <div class="section-head">
+          <h2>项目 3：AI Workflow Opportunity Scanner</h2>
+          <p>关键词：流程诊断、机会评分、AI 试点优先级</p>
+        </div>
+        <div class="grid highlights-grid case-grid">
+          <article class="card"><h3 class="module-title">项目背景</h3><p class="module-meta">很多业务团队知道“要做 AI”，但不知道该从哪个流程切入、怎么评估 ROI、如何选试点。</p></article>
+          <article class="card"><h3 class="module-title">我的职责</h3><p class="module-meta">负责构建流程诊断框架、定义机会评分规则，并产出试点优先级建议。</p></article>
+          <article class="card"><h3 class="module-title">方案重点</h3><p class="module-meta">通过流程拆解 → 机会识别 → 评分排序 → 试点建议，把可 AI 化场景转成可执行路线图。</p></article>
+          <article class="card"><h3 class="module-title">当前状态</h3><p class="module-meta">已完成项目定位与价值主张，下一步会补评分维度、权重与真实案例模板。</p></article>
+        </div>
+        <article class="card case-highlight-card">
+          <h3 class="module-title">为什么这个项目重要</h3>
+          <p class="module-meta">它体现的是“从业务痛点到 AI 试点落地”的完整路径，适合展示我不只是会讲工具，而是会做价值判断与优先级设计。</p>
+          <div class="portfolio-cta-row">
+            <a class="button-link" href="https://github.com/AgentSmithClaw/ai-job-search-playbook/blob/main/04-projects/projects-overview.md" target="_blank" rel="noopener noreferrer">查看项目总览</a>
+            <a class="button-link button-link-secondary" href="https://github.com/AgentSmithClaw/ai-job-search-playbook/blob/main/09-job-matching/opportunity-scoring.md" target="_blank" rel="noopener noreferrer">查看评分思路</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-head">
+          <h2>如果想看完整资料</h2>
+          <p>对外页讲案例，对内工作台承载完整文档、学习计划和投递资料</p>
+        </div>
+        <div class="grid highlights-grid">
+          <article class="card">
+            <h3 class="module-title">进入工作台</h3>
+            <p class="module-meta">如果要查看模块导航、知识库结构、面试准备和完整项目资料，请进入对内工作台。</p>
+            <p><a class="button-link" href="./dashboard.html">进入工作台</a></p>
+          </article>
+        </div>
+      </section>
     </main>
-    <footer class="footer"><p id="footerText"></p></footer>
-    <script src="./app.js"></script>
+
+    <footer class="footer">
+      <p>当前为对外项目案例页；完整模块导航请进入 Dashboard。</p>
+    </footer>
   </body>
 </html>
