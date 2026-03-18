@@ -1,0 +1,163 @@
+{
+  "repo": {
+    "name": "ai-job-search-playbook",
+    "url": "https://github.com/AgentSmithClaw/ai-job-search-playbook",
+    "defaultBranch": "main",
+    "targetRole": "AI研究助理（广州 4399）"
+  },
+  "quickLinks": [
+    "README.md",
+    "PROJECT-INDEX.md",
+    "PROJECT-DASHBOARD.md",
+    "PROGRESS.md",
+    "TASKS.md",
+    "TASKS-EXTENDED.md",
+    "DECISIONS.md",
+    "FAQ.md"
+  ],
+  "highlights": [
+    "04-projects/projects-overview.md",
+    "03-interview-prep/interview-onepager.md",
+    "01-job-target/jd-evidence-map.md",
+    "09-job-matching/application-tracker.md",
+    "08-resume-optimization/submission-resume-v2.md",
+    "02-learning-plan/3-month-plan.md"
+  ],
+  "modules": [
+    {
+      "slug": "job-target",
+      "title": "求职目标",
+      "dirs": ["01-job-target"],
+      "summary": "明确目标岗位、拆解 JD 要求、识别能力差距，并沉淀公司研究结论。",
+      "intro": "这个模块用于把‘想投什么岗位、为什么能投、还差什么能力’讲清楚，是整个求职项目的起点。",
+      "featured": [
+        "01-job-target/target-role.md",
+        "01-job-target/jd-analysis.md",
+        "01-job-target/jd-evidence-map.md"
+      ],
+      "sections": [
+        { "title": "岗位定位", "include": ["01-job-target/target-role.md", "01-job-target/jd-analysis.md"] },
+        { "title": "差距与证据", "include": ["01-job-target/gap-analysis.md", "01-job-target/jd-evidence-map.md"] },
+        { "title": "公司研究", "include": ["01-job-target/company-research.md"] }
+      ]
+    },
+    {
+      "slug": "learning-plan",
+      "title": "学习计划",
+      "dirs": ["02-learning-plan", "12-learning"],
+      "summary": "把能力提升拆成阶段性计划、学习索引和专项训练主题，便于持续执行。",
+      "intro": "这个模块把学习从‘想学很多’变成‘按阶段推进’，适合用来管理 3 个月到 6 个月的成长路线。",
+      "featured": [
+        "02-learning-plan/3-month-plan.md",
+        "02-learning-plan/6-month-plan.md",
+        "12-learning/product-thinking.md"
+      ],
+      "sections": [
+        { "title": "阶段计划", "include": ["02-learning-plan/3-month-plan.md", "02-learning-plan/6-month-plan.md", "10-career-resources/weekly-study-plan.md"] },
+        { "title": "学习索引与资料", "include": ["02-learning-plan/LEARNING-NOTES-INDEX.md", "02-learning-plan/ai-ml-resources.md", "02-learning-plan/system-design-resources.md"] },
+        { "title": "专项训练", "include": ["12-learning/product-thinking.md", "12-learning/business-thinking.md", "12-learning/english-learning.md", "12-learning/public-speaking.md", "12-learning/writing-skills.md"] }
+      ]
+    },
+    {
+      "slug": "interview-prep",
+      "title": "面试准备",
+      "dirs": ["03-interview-prep", "14-interview"],
+      "summary": "覆盖自我介绍、项目讲述、STAR 案例、常见问题和模拟面试记录。",
+      "intro": "这个模块聚焦‘怎么讲’，把面试中最容易卡壳的内容提前结构化整理。",
+      "featured": [
+        "03-interview-prep/interview-onepager.md",
+        "03-interview-prep/star-cases.md",
+        "03-interview-prep/project-pitches-90s.md"
+      ],
+      "sections": [
+        { "title": "基础表达", "include": ["03-interview-prep/self-introduction.md", "03-interview-prep/self-introduction-v2.md", "03-interview-prep/interview-onepager.md"] },
+        { "title": "案例与项目讲述", "include": ["03-interview-prep/star-cases.md", "03-interview-prep/project-pitches-90s.md"] },
+        { "title": "题库与模拟", "include": ["03-interview-prep/interview-qa.md", "14-interview/behavioral-questions.md", "14-interview/system-design-questions.md", "14-interview/coding-prep.md", "14-interview/mock-interview-log.md"] }
+      ]
+    },
+    {
+      "slug": "projects",
+      "title": "项目作品",
+      "dirs": ["04-projects", "05-portfolio"],
+      "summary": "汇总项目总览、PRD、系统方案、Demo 讲述与作品集展示规划。",
+      "intro": "这是整个站里最适合面试官和招聘方浏览的部分，用来展示你做过什么、怎么做的、为什么有价值。",
+      "featured": [
+        "04-projects/projects-overview.md",
+        "04-projects/ai-meeting-copilot-prd.md",
+        "05-portfolio/github-plan.md"
+      ],
+      "sections": [
+        { "title": "总览与展示", "include": ["04-projects/projects-overview.md", "04-projects/demo-video-outline.md", "05-portfolio/github-plan.md"] },
+        { "title": "产品与业务设计", "include": ["04-projects/ai-meeting-copilot-prd.md", "04-projects/ai-meeting-copilot-demo.md", "04-projects/ai-research-brief-generator-readme.md", "04-projects/ai-research-brief-template.md"] },
+        { "title": "技术方案", "include": ["04-projects/ai-workflow-api.md", "04-projects/ai-workflow-database.md", "04-projects/ai-workflow-scoring.md", "04-projects/scoring-algorithm.md", "04-projects/llm-integration.md", "04-projects/auth-system.md", "04-projects/data-export.md", "04-projects/i18n-support.md", "04-projects/ai-research-brief-error-handling.md"] }
+      ]
+    },
+    {
+      "slug": "resume",
+      "title": "简历优化",
+      "dirs": ["08-resume-optimization", "13-personal-brand"],
+      "summary": "围绕主简历、投递版简历、项目要点和个人品牌材料持续打磨。",
+      "intro": "这个模块负责把经历和项目翻译成招聘语境里看得懂、愿意约面的表达。",
+      "featured": [
+        "08-resume-optimization/master-resume.md",
+        "08-resume-optimization/submission-resume-v2.md",
+        "08-resume-optimization/targeted-resume-ai-research-assistant.md"
+      ],
+      "sections": [
+        { "title": "简历版本", "include": ["08-resume-optimization/master-resume.md", "08-resume-optimization/submission-resume-v1.md", "08-resume-optimization/submission-resume-v2.md", "08-resume-optimization/targeted-resume-ai-research-assistant.md"] },
+        { "title": "内容打磨", "include": ["08-resume-optimization/project-bullets.md", "08-resume-optimization/resume-improvement-notes.md"] },
+        { "title": "个人品牌", "include": ["13-personal-brand/github-profile.md", "13-personal-brand/tech-resume-template.md"] }
+      ]
+    },
+    {
+      "slug": "job-matching",
+      "title": "岗位匹配",
+      "dirs": ["09-job-matching"],
+      "summary": "用于岗位筛选、优先级评估、投递跟踪、沟通模板和节奏复盘。",
+      "intro": "这个模块把投递这件事从‘到处海投’变成‘有节奏、有选择地推进’。",
+      "featured": [
+        "09-job-matching/top20-jobs.md",
+        "09-job-matching/opportunity-scoring.md",
+        "09-job-matching/application-tracker.md"
+      ],
+      "sections": [
+        { "title": "筛岗与排序", "include": ["09-job-matching/top20-jobs.md", "09-job-matching/matched-jobs.md", "09-job-matching/opportunity-scoring.md", "09-job-matching/matching-rules.md", "09-job-matching/target-platforms.md"] },
+        { "title": "投递执行", "include": ["09-job-matching/application-tracker.md", "09-job-matching/outreach-messages.md", "09-job-matching/rejection-template.md", "09-job-matching/communication-records.md"] },
+        { "title": "节奏与复盘", "include": ["09-job-matching/weekly-rhythm.md", "09-job-matching/weekly-review.md", "09-job-matching/next-week-tasks.md"] }
+      ]
+    },
+    {
+      "slug": "resources",
+      "title": "学习资源",
+      "dirs": ["10-career-resources", "11-efficiency-tools"],
+      "summary": "收集职业发展资源、谈薪入职材料，以及提升效率的工具与方法。",
+      "intro": "这个模块偏工具箱属性，适合在不同阶段按需取用，而不是一次性通读。",
+      "featured": [
+        "10-career-resources/salary-negotiation.md",
+        "10-career-resources/linkedin-optimization.md",
+        "11-efficiency-tools/cli-tools.md"
+      ],
+      "sections": [
+        { "title": "职业资源", "include": ["10-career-resources/weekly-study-plan.md", "10-career-resources/salary-negotiation.md", "10-career-resources/thank-you-letter.md", "10-career-resources/linkedin-optimization.md", "10-career-resources/onboarding-checklist.md", "10-career-resources/resignation-guide.md", "10-career-resources/workplace-strategies.md", "10-career-resources/tech-books.md"] },
+        { "title": "效率工具", "include": ["11-efficiency-tools/cli-tools.md", "11-efficiency-tools/productivity-tools.md", "11-efficiency-tools/shortcuts-cheatsheet.md", "11-efficiency-tools/vscode-plugins.md"] }
+      ]
+    },
+    {
+      "slug": "reflection",
+      "title": "复盘成长",
+      "dirs": ["06-logs", "15-reflection", "16-career-growth", "17-emergency"],
+      "summary": "承载日志记录、阶段复盘、长期成长规划和异常情况预案。",
+      "intro": "这个模块负责把经历沉淀成经验，让项目不只是推进，还能持续修正方向。",
+      "featured": [
+        "15-reflection/daily-review.md",
+        "15-reflection/monthly-review.md",
+        "16-career-growth/one-year-goals.md"
+      ],
+      "sections": [
+        { "title": "日志与复盘", "include": ["06-logs/conversation-notes.md", "15-reflection/daily-review.md", "15-reflection/monthly-review.md", "15-reflection/quarterly-review.md", "15-reflection/annual-review.md"] },
+        { "title": "成长规划", "include": ["16-career-growth/first-week-guide.md", "16-career-growth/one-year-goals.md", "16-career-growth/upward-communication.md"] },
+        { "title": "预案与恢复", "include": ["17-emergency/backup-plan.md", "17-emergency/career-crisis.md", "17-emergency/interview-failure-review.md", "17-emergency/mindset-adjustment.md"] }
+      ]
+    }
+  ]
+}

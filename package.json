@@ -1,0 +1,7 @@
+{
+  "name": "ai-job-search-playbook-site",
+  "private": true,
+  "scripts": {
+    "build:site-data": "node scripts/generate-site-data.js"
+  }
+}
