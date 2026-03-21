@@ -27,12 +27,29 @@
 
       <header class="hero card reveal portfolio-hero portfolio-hero-strong">
         <p class="badge">Project Case Studies</p>
-        <h1>3 个最能说明我的项目案例</h1>
+        <h1>4 个最能说明我的项目案例</h1>
         <p class="hero-text">
           这页不是资料库导航，而是从招聘视角重新组织后的项目案例页。
           每个项目都按「背景 - 我的职责 - 方案 - 当前结果 - 下一步」来讲，方便快速判断我是否适合进入下一轮沟通。
         </p>
       </header>
+
+      <section class="section reveal case-study" id="gappilot">
+        <div class="section-head">
+          <h2>项目 0：GapPilot Platform ⭐</h2>
+          <p>关键词：全栈产品、AI 差距分析、方法论产品化、49 个测试</p>
+        </div>
+        <div class="grid highlights-grid case-grid">
+          <article class="card"><h3 class="module-title">项目背景</h3><p class="module-meta">求职时最花时间的是判断"该不该投"和"简历怎么改"。我把这套判断过程从个人经验变成系统化方法论（Playbook），再把核心逻辑产品化为可运行的 AI 分析平台。</p></article>
+          <article class="card"><h3 class="module-title">我的职责</h3><p class="module-meta">从方法论设计到产品实现全程主导：需求分析、产品设计、全栈开发（FastAPI + Vanilla JS）、测试（49 个 pytest）、部署（Docker）。</p></article>
+          <article class="card"><h3 class="module-title">技术与实现</h3><p class="module-meta">FastAPI + SQLite 后端，Vanilla JS SPA 前端，支持 PDF/OCR 简历解析、LLM 多模型路由、Stripe 支付、分析报告导出。</p></article>
+          <article class="card"><h3 class="module-title">当前状态</h3><p class="module-meta">已完成并开源。本地可直接运行（uvicorn），Docker 一键部署。49 个测试全部通过。</p></article>
+          <article class="card"><h3 class="module-title">关键亮点</h3><p class="module-meta">从"方法论"到"产品"的完整闭环；简历解析多层降级（PDF→OCR）；LLM 输出本地可信度校验；Mock+Stripe 双模式支付。</p></article>
+        </div>
+        <div class="case-cta">
+          <a class="button-link" href="https://github.com/AgentSmithClaw/ai-job-search-platform" target="_blank">查看仓库 →</a>
+        </div>
+      </section>
 
       <section class="section reveal case-study" id="meeting-copilot">
         <div class="section-head">
