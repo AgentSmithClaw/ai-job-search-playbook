@@ -1,3 +1,5 @@
+> 💡 评分逻辑已产品化为 [GapPilot Platform](https://github.com/AgentSmithClaw/ai-job-search-platform)。
+
 # 机会评分表
 
 > 对目标岗位进行多维度评分，辅助投递优先级决策

@@ -1,3 +1,5 @@
+> 💡 本模块是 GapPilot 方法论的手动执行版。核心匹配逻辑已产品化为 [GapPilot Platform](https://github.com/AgentSmithClaw/ai-job-search-platform)，支持上传简历 + 粘贴 JD 自动分析。
+
 # 岗位匹配规则
 
 ## 一、优先匹配的岗位关键词
