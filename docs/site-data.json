@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-03-18",
+  "generatedAt": "2026-03-21",
   "repo": {
     "name": "ai-job-search-playbook",
     "url": "https://github.com/AgentSmithClaw/ai-job-search-playbook",
     "defaultBranch": "main",
     "targetRole": "AI研究助理（广州 4399）",
-    "totalMarkdownFiles": 108,
+    "totalMarkdownFiles": 127,
     "moduleDirectories": 16
   },
   "quickLinks": [
     {
       "path": "README.md",
-      "title": "ai-job-search-playbook",
-      "summary": "一个用于统一管理求职目标、学习计划、面试准备、项目作品和关键决策的总项目仓库。"
+      "title": "GapPilot Playbook",
+      "summary": "个人求职方法论与知识体系 —— 从岗位分析到面试复盘的完整操作系统。"
     },
     {
       "path": "PROJECT-INDEX.md",
@@ -22,7 +22,7 @@
     {
       "path": "PROJECT-DASHBOARD.md",
       "title": "Project Dashboard",
-      "summary": "第一阶段：建立总项目管理框架"
+      "summary": "第二阶段前半：从“材料完备”进入“验证与收敛”"
     },
     {
       "path": "PROGRESS.md",
@@ -383,7 +383,7 @@
         "04-projects",
         "05-portfolio"
       ],
-      "docCount": 20,
+      "docCount": 29,
       "summary": "汇总项目总览、PRD、系统方案、Demo 讲述与作品集展示规划。",
       "intro": "这是整个站里最适合面试官和招聘方浏览的部分，用来展示你做过什么、怎么做的、为什么有价值。",
       "featured": [
@@ -504,6 +504,41 @@
           "summary": "这部分是脚本自动归入、尚未手工细分的文档。",
           "items": [
             {
+              "path": "04-projects/README.md",
+              "title": "04-projects",
+              "summary": "核心在做，优先级最高。当前除 PRD 外，已补："
+            },
+            {
+              "path": "04-projects/ai-meeting-copilot-demo-script.md",
+              "title": "ai-meeting-copilot Demo Script",
+              "summary": "用于 1~2 分钟内快速演示项目价值，让面试官看懂："
+            },
+            {
+              "path": "04-projects/ai-meeting-copilot-execution-plan.md",
+              "title": "ai-meeting-copilot 执行计划（第二阶段收口版）",
+              "summary": "目标：把当前“可讲、可展示雏形”的项目，收口成一个真正适合投递和面试演示的 MVP。"
+            },
+            {
+              "path": "04-projects/ai-meeting-copilot-sample-data-plan.md",
+              "title": "ai-meeting-copilot 样例数据计划",
+              "summary": "补 2~3 组更像真实工作场景的会议样例，用于 Demo、截图和面试讲解。"
+            },
+            {
+              "path": "04-projects/ai-meeting-copilot-sample-meeting-1.md",
+              "title": "ai-meeting-copilot 样例会议 1：跨部门上线准备会",
+              "summary": "会议主题：智能周报功能上线准备会"
+            },
+            {
+              "path": "04-projects/ai-meeting-copilot-sample-meeting-2.md",
+              "title": "ai-meeting-copilot 样例会议 2：周例会 / 阻塞项复盘会",
+              "summary": "会议主题：项目周例会与阻塞项复盘"
+            },
+            {
+              "path": "04-projects/ai-research-brief-generator-sample.md",
+              "title": "ai-research-brief-generator 最小样例",
+              "summary": "某电商平台宣布在客服场景中接入大模型问答助手，目标是减少人工重复咨询，并提升夜间服务覆盖。"
+            },
+            {
               "path": "04-projects/ai-research-brief-io.md",
               "title": "ai-research-brief-generator 输入输出样例",
               "summary": "标题：以太坊Gas费用创历史新低"
@@ -519,9 +554,19 @@
               "summary": "2个行业场景的流程识别与评分示例"
             },
             {
+              "path": "04-projects/ai-workflow-opportunity-scanner-sample.md",
+              "title": "ai-workflow-opportunity-scanner 最小样例",
+              "summary": "市场团队每周需要整理竞品动态，并在周会前输出一页简报。当前流程主要靠人工完成："
+            },
+            {
               "path": "04-projects/ai-workflow-scanner-readme.md",
               "title": "ai-workflow-opportunity-scanner",
               "summary": "<div align=\"center\">"
+            },
+            {
+              "path": "04-projects/project-2-3-mini-prototype-plan.md",
+              "title": "项目2 / 项目3 最小可展示样例计划",
+              "summary": "把 ai-research-brief-generator 和 ai-workflow-opportunity-scanner 从“讲得通”推进到“至少有一个看得见的轻原型样例”。"
             }
           ]
         }
@@ -618,7 +663,7 @@
       "dirs": [
         "09-job-matching"
       ],
-      "docCount": 12,
+      "docCount": 13,
       "summary": "用于岗位筛选、优先级评估、投递跟踪、沟通模板和节奏复盘。",
       "intro": "这个模块把投递这件事从‘到处海投’变成‘有节奏、有选择地推进’。",
       "featured": [
@@ -630,7 +675,7 @@
         {
           "path": "09-job-matching/opportunity-scoring.md",
           "title": "机会评分表",
-          "summary": "对目标岗位进行多维度评分，辅助投递优先级决策"
+          "summary": "💡 评分逻辑已产品化为 [GapPilot Platform](https://github.com/AgentSmithClaw/ai-job-search-platform)"
         },
         {
           "path": "09-job-matching/application-tracker.md",
@@ -655,12 +700,12 @@
             {
               "path": "09-job-matching/opportunity-scoring.md",
               "title": "机会评分表",
-              "summary": "对目标岗位进行多维度评分，辅助投递优先级决策"
+              "summary": "💡 评分逻辑已产品化为 [GapPilot Platform](https://github.com/AgentSmithClaw/ai-job-search-platform)"
             },
             {
               "path": "09-job-matching/matching-rules.md",
               "title": "岗位匹配规则",
-              "summary": "AI产品助理 / AI产品运营"
+              "summary": "💡 本模块是 GapPilot 方法论的手动执行版。核心匹配逻辑已产品化为 [GapPilot Platform](https://github.com/AgentSmithCl"
             },
             {
               "path": "09-job-matching/target-platforms.md",
@@ -713,6 +758,17 @@
               "summary": "Week 12（03.16-03.22）执行清单"
             }
           ]
+        },
+        {
+          "title": "自动收录",
+          "summary": "这部分是脚本自动归入、尚未手工细分的文档。",
+          "items": [
+            {
+              "path": "09-job-matching/README.md",
+              "title": "09-job-matching — 岗位匹配与机会筛选",
+              "summary": "本模块是 **GapPilot 方法论的手动执行版**，提供岗位匹配规则、评分逻辑、投递跟踪等框架工具。"
+            }
+          ]
         }
       ]
     },
@@ -723,7 +779,7 @@
         "10-career-resources",
         "11-efficiency-tools"
       ],
-      "docCount": 14,
+      "docCount": 18,
       "summary": "收集职业发展资源、谈薪入职材料，以及提升效率的工具与方法。",
       "intro": "这个模块偏工具箱属性，适合在不同阶段按需取用，而不是一次性通读。",
       "featured": [
@@ -827,6 +883,26 @@
               "path": "10-career-resources/pkm-system.md",
               "title": "个人知识管理系统",
               "summary": "├── 00-Inbox/"
+            },
+            {
+              "path": "10-career-resources/pkm-tagging-rules.md",
+              "title": "KMS 标签与命名规则",
+              "summary": "目标：让知识可检索、可归档、可复用，而不是越记越乱。"
+            },
+            {
+              "path": "10-career-resources/pkm-templates.md",
+              "title": "个人知识管理系统模板包",
+              "summary": "让知识管理从“知道该做什么”变成“今天就能开始做”。"
+            },
+            {
+              "path": "10-career-resources/pkm-usage-guide.md",
+              "title": "KMS 使用说明",
+              "summary": "这是 ai-job-search-playbook 内部的个人知识管理系统最小使用指南。"
+            },
+            {
+              "path": "10-career-resources/pkm-workflow.md",
+              "title": "个人知识管理系统执行流程",
+              "summary": "推荐采用「收集 → 整理 → 连接 → 回顾 → 输出」五步法。"
             }
           ]
         }
@@ -841,7 +917,7 @@
         "16-career-growth",
         "17-emergency"
       ],
-      "docCount": 12,
+      "docCount": 15,
       "summary": "承载日志记录、阶段复盘、长期成长规划和异常情况预案。",
       "intro": "这个模块负责把经历沉淀成经验，让项目不只是推进，还能持续修正方向。",
       "featured": [
@@ -934,6 +1010,27 @@
               "path": "17-emergency/mindset-adjustment.md",
               "title": "心态调整指南",
               "summary": "原因：不确定性、竞争压力"
+            }
+          ]
+        },
+        {
+          "title": "自动收录",
+          "summary": "这部分是脚本自动归入、尚未手工细分的文档。",
+          "items": [
+            {
+              "path": "06-logs/daily-notes/2026-03-18.md",
+              "title": "Daily Note - 2026-03-18",
+              "summary": "推进个人知识管理系统（KMS）从概念文档进入实际可用状态"
+            },
+            {
+              "path": "06-logs/kms-progress.md",
+              "title": "KMS 项目进度",
+              "summary": "个人知识管理系统（KMS / PKM）"
+            },
+            {
+              "path": "06-logs/weekly-reviews/README.md",
+              "title": "Weekly Reviews",
+              "summary": "每周至少一份回顾，用于："
             }
           ]
         }
