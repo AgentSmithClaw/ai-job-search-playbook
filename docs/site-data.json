@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-03-21",
   "repo": {
-    "name": "ai-job-search-playbook",
+    "name": "GapPilot Playbook",
     "url": "https://github.com/AgentSmithClaw/ai-job-search-playbook",
     "defaultBranch": "main",
     "targetRole": "AI研究助理（广州 4399）",
@@ -393,7 +393,7 @@
           "summary": "目标：每个项目都能在面试中用 60~90 秒说明清楚「背景-职责-技术-结果-亮点-下一步」。"
         },
         {
-          "path": "04-projects/ai-meeting-copilot-prd.md",
+          "path": "04-projects/ai-meeting-copilot/ai-meeting-copilot-prd.md",
           "title": "ai-meeting-copilot PRD（补全版）",
           "summary": "AI会议纪要与行动项助手 - 产品需求文档"
         },
@@ -413,7 +413,7 @@
               "summary": "目标：每个项目都能在面试中用 60~90 秒说明清楚「背景-职责-技术-结果-亮点-下一步」。"
             },
             {
-              "path": "04-projects/demo-video-outline.md",
+              "path": "04-projects/ai-meeting-copilot/demo-video-outline.md",
               "title": "项目演示视频大纲",
               "summary": "ai-meeting-copilot 演示视频策划"
             },
@@ -428,22 +428,22 @@
           "title": "产品设计",
           "items": [
             {
-              "path": "04-projects/ai-meeting-copilot-prd.md",
+              "path": "04-projects/ai-meeting-copilot/ai-meeting-copilot-prd.md",
               "title": "ai-meeting-copilot PRD（补全版）",
               "summary": "AI会议纪要与行动项助手 - 产品需求文档"
             },
             {
-              "path": "04-projects/ai-meeting-copilot-demo.md",
+              "path": "04-projects/ai-meeting-copilot/ai-meeting-copilot-demo.md",
               "title": "ai-meeting-copilot Demo脚本",
               "summary": "从输入到结果的完整演示路径（2分钟版）"
             },
             {
-              "path": "04-projects/ai-research-brief-generator-readme.md",
+              "path": "04-projects/ai-research-brief/ai-research-brief-generator-readme.md",
               "title": "ai-research-brief-generator",
               "summary": "<div align=\"center\">"
             },
             {
-              "path": "04-projects/ai-research-brief-template.md",
+              "path": "04-projects/ai-research-brief/ai-research-brief-template.md",
               "title": "ai-research-brief-generator 简报模板 v2",
               "summary": "结构化研究输出模板 - 结论/证据/建议/风险"
             }
@@ -453,47 +453,47 @@
           "title": "技术实现",
           "items": [
             {
-              "path": "04-projects/ai-workflow-api.md",
+              "path": "04-projects/ai-workflow/ai-workflow-api.md",
               "title": "项目3 API设计",
               "summary": "ai-workflow-opportunity-scanner 接口文档"
             },
             {
-              "path": "04-projects/ai-workflow-database.md",
+              "path": "04-projects/ai-workflow/ai-workflow-database.md",
               "title": "项目3：数据库设计",
               "summary": "ai-workflow-opportunity-scanner 数据库设计"
             },
             {
-              "path": "04-projects/ai-workflow-scoring.md",
+              "path": "04-projects/ai-workflow/ai-workflow-scoring.md",
               "title": "ai-workflow-opportunity-scanner 评分维度与权重",
               "summary": "流程机会识别 - 评估维度与权重设计"
             },
             {
-              "path": "04-projects/scoring-algorithm.md",
+              "path": "04-projects/ai-workflow/scoring-algorithm.md",
               "title": "项目3完善评分算法",
               "summary": "ai-workflow-opportunity-scanner 评分系统"
             },
             {
-              "path": "04-projects/llm-integration.md",
+              "path": "04-projects/ai-meeting-copilot/llm-integration.md",
               "title": "项目2接入真实LLM API",
               "summary": "ai-research-brief-generator 接入大语言模型"
             },
             {
-              "path": "04-projects/auth-system.md",
+              "path": "04-projects/ai-meeting-copilot/auth-system.md",
               "title": "项目1用户认证系统",
               "summary": "ai-meeting-copilot 认证与授权方案"
             },
             {
-              "path": "04-projects/data-export.md",
+              "path": "04-projects/ai-meeting-copilot/data-export.md",
               "title": "项目1数据导出功能",
               "summary": "支持多种格式导出会议数据"
             },
             {
-              "path": "04-projects/i18n-support.md",
+              "path": "04-projects/ai-meeting-copilot/i18n-support.md",
               "title": "项目1多语言支持",
               "summary": "ai-meeting-copilot 多语言实现方案"
             },
             {
-              "path": "04-projects/ai-research-brief-error-handling.md",
+              "path": "04-projects/ai-research-brief/ai-research-brief-error-handling.md",
               "title": "项目2：输入验证与错误处理",
               "summary": "ai-research-brief-generator 完善计划"
             }
@@ -506,60 +506,60 @@
             {
               "path": "04-projects/README.md",
               "title": "04-projects",
-              "summary": "核心在做，优先级最高。当前除 PRD 外，已补："
+              "summary": "作品项目总览与项目详细文档。"
             },
             {
-              "path": "04-projects/ai-meeting-copilot-demo-script.md",
+              "path": "04-projects/ai-meeting-copilot/ai-meeting-copilot-demo-script.md",
               "title": "ai-meeting-copilot Demo Script",
               "summary": "用于 1~2 分钟内快速演示项目价值，让面试官看懂："
             },
             {
-              "path": "04-projects/ai-meeting-copilot-execution-plan.md",
+              "path": "04-projects/ai-meeting-copilot/ai-meeting-copilot-execution-plan.md",
               "title": "ai-meeting-copilot 执行计划（第二阶段收口版）",
               "summary": "目标：把当前“可讲、可展示雏形”的项目，收口成一个真正适合投递和面试演示的 MVP。"
             },
             {
-              "path": "04-projects/ai-meeting-copilot-sample-data-plan.md",
+              "path": "04-projects/ai-meeting-copilot/ai-meeting-copilot-sample-data-plan.md",
               "title": "ai-meeting-copilot 样例数据计划",
               "summary": "补 2~3 组更像真实工作场景的会议样例，用于 Demo、截图和面试讲解。"
             },
             {
-              "path": "04-projects/ai-meeting-copilot-sample-meeting-1.md",
+              "path": "04-projects/ai-meeting-copilot/ai-meeting-copilot-sample-meeting-1.md",
               "title": "ai-meeting-copilot 样例会议 1：跨部门上线准备会",
               "summary": "会议主题：智能周报功能上线准备会"
             },
             {
-              "path": "04-projects/ai-meeting-copilot-sample-meeting-2.md",
+              "path": "04-projects/ai-meeting-copilot/ai-meeting-copilot-sample-meeting-2.md",
               "title": "ai-meeting-copilot 样例会议 2：周例会 / 阻塞项复盘会",
               "summary": "会议主题：项目周例会与阻塞项复盘"
             },
             {
-              "path": "04-projects/ai-research-brief-generator-sample.md",
+              "path": "04-projects/ai-research-brief/ai-research-brief-generator-sample.md",
               "title": "ai-research-brief-generator 最小样例",
               "summary": "某电商平台宣布在客服场景中接入大模型问答助手，目标是减少人工重复咨询，并提升夜间服务覆盖。"
             },
             {
-              "path": "04-projects/ai-research-brief-io.md",
+              "path": "04-projects/ai-research-brief/ai-research-brief-io.md",
               "title": "ai-research-brief-generator 输入输出样例",
               "summary": "标题：以太坊Gas费用创历史新低"
             },
             {
-              "path": "04-projects/ai-research-brief-logging.md",
+              "path": "04-projects/ai-research-brief/ai-research-brief-logging.md",
               "title": "项目2日志系统",
               "summary": "ai-research-brief-generator 日志配置"
             },
             {
-              "path": "04-projects/ai-workflow-cases.md",
+              "path": "04-projects/ai-workflow/ai-workflow-cases.md",
               "title": "ai-workflow-opportunity-scanner 案例模板",
               "summary": "2个行业场景的流程识别与评分示例"
             },
             {
-              "path": "04-projects/ai-workflow-opportunity-scanner-sample.md",
+              "path": "04-projects/ai-workflow/ai-workflow-opportunity-scanner-sample.md",
               "title": "ai-workflow-opportunity-scanner 最小样例",
               "summary": "市场团队每周需要整理竞品动态，并在周会前输出一页简报。当前流程主要靠人工完成："
             },
             {
-              "path": "04-projects/ai-workflow-scanner-readme.md",
+              "path": "04-projects/ai-workflow/ai-workflow-scanner-readme.md",
               "title": "ai-workflow-opportunity-scanner",
               "summary": "<div align=\"center\">"
             },
