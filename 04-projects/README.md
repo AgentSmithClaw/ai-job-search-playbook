@@ -2,12 +2,14 @@
 
 作品项目总览与项目详细文档。
 
+> 💡 GapPilot Platform（第 4 个项目）为独立仓库，详见 [GitHub](https://github.com/AgentSmithClaw/ai-job-search-platform)。
+
 ## 目录结构
 
 ```
 04-projects/
 ├── README.md                          # 本文件
-├── projects-overview.md               # 三项目总览（面试可讲版）
+├── projects-overview.md               # 四项目总览（面试可讲版）
 ├── project-2-3-mini-prototype-plan.md # 项目2/3轻原型推进计划
 ├── ai-meeting-copilot/                # 项目1：AI会议助手
 │   ├── ai-meeting-copilot-prd.md              # PRD
