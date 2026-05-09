@@ -1,10 +1,6 @@
 {
-  "output": "static",
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/docs/$1"
-    }
-  ]
+  "outputDirectory": "docs",
+  "cleanUrls": true
 }
